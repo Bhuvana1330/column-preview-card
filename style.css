@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;600&display=swap');
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    background-color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.column1{
+    background-color: hsl(31, 77%, 52%);
+    height: 25rem;
+    width: 17rem;
+    padding: 2.5rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.name1{
+    color:white;
+    font-family:"Big Shoulders Display",;
+    font-size: 2.3rem;
+
+}
+
+.para1{
+    color: white;
+    font-family: "Lexend Deca",sans-serif;
+    margin-top: 1.5rem;
+    bottom: 6rem;
+}
+
+.btn1{
+    background-color: white;
+    color:hsl(31, 77%, 52%); ;
+    border: 0px solid;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-top: 4rem;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%));
+}
+
+.column2{
+    background-color: hsl(184, 100%, 22%) ;
+    min-height: 25rem;
+    max-width: 17rem;
+    padding: 2.5rem;
+}
+
+.name2{
+    color:white;
+    font-family:"Big Shoulders Display" ;
+    font-size: 2.3rem;
+
+}
+
+.para2{
+    color: white;
+    font-family: "Lexend Deca",sans-serif;
+    margin-top: 1.5rem;
+    bottom: 6rem;  
+}
+
+.btn2{
+    background-color: white;
+    border: 0px solid;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-top: 3rem;
+    border-radius: 30px;
+    color: hsl(184, 100%, 22%));
+}
+
+.column3{
+    background-color: hsl(179, 100%, 13%);
+    min-height: 25rem;
+    max-width: 17rem;
+    padding: 2.5rem;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.name3{
+    color:white;
+    font-family:"Big Shoulders Display" ;
+    font-size: 2.3rem;
+
+}
+
+.para3{
+    color: white;
+    font-family: "Lexend Deca",sans-serif;
+    margin-top: 1.5rem;
+    bottom: 6rem;
+}
+
+.btn3{
+    background-color: white;
+    border: 0px solid;
+    text-align: center;
+    padding: 12px 18px;
+    bottom: 0;
+    margin-top: 4rem;
+    border-radius: 30px;
+    color: hsl(179, 100%, 13%));
+}
+
+
